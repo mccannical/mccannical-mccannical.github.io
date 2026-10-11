@@ -61,7 +61,7 @@
       </a>
       <a class="btn" href="resume.pdf" download>
         <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></svg>
-        Résumé (PDF)
+        Resume (PDF)
       </a>
       <a class="btn" href="https://github.com/mccannical" target="_blank" rel="me noopener">
         <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.53 2.35 1.09 2.92.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.4.1 2.65.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.74c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg>
@@ -91,6 +91,11 @@
     <p class="eyebrow">Selected impact</p>
     <h2>Outcomes, not job descriptions.</h2>
     <div class="cards">
+      <article class="card">
+        <p class="tag">BlackLine · Corporate IT</p>
+        <h3>An enterprise AI platform foundation</h3>
+        <p>Launched BlackLine IT's Gemini Enterprise (Agentspace) platform on a standalone, Terraform-managed GCP tenant, with Workforce Identity Federation between Microsoft Entra ID and GCP — least-privilege by default.</p>
+      </article>
       <article class="card">
         <p class="tag">DTEX Systems</p>
         <h3>One command, one hour, any cloud</h3>
@@ -132,17 +137,34 @@
     <div class="timeline">
       <article class="job">
         <header>
-          <h3>Site Reliability Engineer <span class="at">· DTEX Systems</span></h3>
-          <p class="when">Jun 2024 – Present · Greater Philadelphia</p>
+          <h3>Senior Systems Infrastructure Engineer, Corporate IT <span class="at">· BlackLine (Consultant)</span></h3>
+          <p class="when">2025 – Present · Greater Philadelphia</p>
         </header>
-        <p class="ctx">Platform engineering for multi-tenant SaaS across commercial and FedRAMP High/Moderate environments.</p>
+        <p class="ctx">Consulting at the intersection of Corporate IT and AI engineering — building BlackLine IT's enterprise AI platform foundation.</p>
         <ul>
-          <li>Built and own the multi-cloud Kubernetes <strong>“deployment factory”</strong>: Terraform/OpenTofu IaC that turns standing up a customer environment from days of manual work into one command and about an hour.</li>
-          <li>Cut monthly cloud spend <strong>30% in the first pass and 45% overall</strong>, mostly through Cloud Custodian policy automation.</li>
-          <li>Built an <strong>internal multi-agent AI platform</strong> (Vertex AI + Copilot) with a durable issue graph for long-running work; the team now uses the blueprint for large-scale legacy refactoring.</li>
-          <li>Built an agentic tool that assembles a <strong>full customer picture from Jira and Confluence in ~30 seconds</strong>.</li>
-          <li>Standardized developer environments — mise for tool versions, Python tools via uvx, one-command GCP/AWS auth.</li>
-          <li>SME for OpenSearch and GCP architecture; own continuous monitoring, vulnerability management, and patching, with 24×7 on-call. Mentor engineers on AI-assisted development.</li>
+          <li>Launched BlackLine's <strong>Gemini Enterprise (Agentspace)</strong> platform: Dev/Test/Prod environments and data connectors (SharePoint, OneDrive, Outlook, Teams, Jira, Confluence), a SAML→OIDC migration, and production data-access restriction.</li>
+          <li>Designed and delivered a standalone, <strong>Terraform-managed GCP tenant</strong> for AI and agent workloads — org/folder structure, least-privilege IAM for citizen developers, network and tenant isolation, and a reusable module for business-unit agent projects.</li>
+          <li>Implemented <strong>Workforce Identity Federation</strong> between Microsoft Entra ID and GCP; added vaulted break-glass access and removed over-privileged bindings and legacy admin tiers.</li>
+          <li>Established infrastructure-as-code and release discipline (Terraform state migration, semantic versioning, Conventional Commits, release pipelines) and built self-service AI Playgrounds with automatic TTL cleanup.</li>
+          <li>Automated the employee lifecycle with PowerShell onboarding/offboarding and a scheduled Workday export; delivered Workato SSO/SCIM and a Confluence OAuth connector; authored ~100 Confluence pages.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <header>
+          <h3>Site Reliability Engineer, DAS Cloud <span class="at">· DTEX Systems</span></h3>
+          <p class="when">May 2024 – Present · Greater Philadelphia</p>
+        </header>
+        <p class="ctx">Reliability and platform engineering for multi-tenant DAS Cloud across commercial and FedRAMP High/Moderate environments.</p>
+        <ul>
+          <li>Delivered DAS Cloud reliability and platform work across <strong>~300 completed Jira issues</strong> (SRE, Service Desk, DAS 7, FedRAMP, customer environments) and authored <strong>~126 Confluence pages</strong> of architecture, runbooks, and operational standards.</li>
+          <li>Built the multi-cloud Kubernetes <strong>“deployment factory”</strong> (Terraform/OpenTofu) that turned standing up a customer environment from days of manual work into one command and about an hour.</li>
+          <li>Cut monthly cloud spend <strong>45%</strong> through Cloud Custodian policy automation.</li>
+          <li>Built an <strong>internal multi-agent AI platform</strong> (Vertex AI + Copilot) with a durable issue graph for long-running work — now the team's blueprint for large-scale legacy refactoring.</li>
+          <li>Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo, and shipped the <strong>DAS 7.3</strong> Terraform and Ansible release.</li>
+          <li>Closed critical <strong>FedRAMP</strong> controls (SSH hardening, key rotation, scanner evidence, Salt/Zabbix remediation, GitLab upgrades) and expanded production IAM across RDS, CloudWatch, logging, Lambda, and snapshots.</li>
+          <li>Evaluated and delivered <strong>OpenSearch architectures</strong> across AWS, Aiven, and Canonical Charmed/Juju — Cluster Insights, UltraWarm/cold storage, in-place upgrades — and completed <strong>GCP commercial productionization</strong>.</li>
+          <li>Improved detection and recovery with DAS CloudWatch alerting, Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of customer incidents involving Elasticsearch, storage, certificates, and message queues.</li>
         </ul>
       </article>
 
@@ -165,44 +187,15 @@
           <h3>Staff System Engineer <span class="at">· BlackLine</span></h3>
           <p class="when">Feb 2018 – Nov 2020 · Woodland Hills, CA</p>
         </header>
-        <ul>
-          <li>Directed the migration of legacy infrastructure to GCP with Terraform.</li>
-          <li>Ran the Atlassian stack in a high-availability setup; integrated SAP Resolve with Salesforce.</li>
-          <li>Put cloud infrastructure under version control in GitLab; automated HRIS updates, server deployment, and patch management.</li>
-          <li>Trained the team on Git, PowerShell, Python, and Terraform.</li>
-        </ul>
+        <p class="ctx">Migrated 4 Nutanix clusters, 30 servers, and 10 applications to GCP with Terraform; ran the Atlassian stack (3,000 users) in high availability and automated HRIS updates, server deployment, and patch management, saving 10–15 hours per week.</p>
       </article>
 
       <article class="job">
         <header>
-          <h3>Senior System Engineer <span class="at">· Applied Minds</span></h3>
-          <p class="when">Dec 2014 – Feb 2018 · Burbank, CA</p>
+          <h3>Earlier Roles <span class="at">· Applied Minds · Virgin Galactic · Publix</span></h3>
+          <p class="when">2007 – 2018</p>
         </header>
-        <ul>
-          <li>Led the company's <strong>NIST 800-171 compliance effort</strong> and implemented the security controls behind it.</li>
-          <li>Built real-time monitoring on the ELK stack in Azure; set up backup and disaster recovery.</li>
-          <li>Migrated internal applications to AWS on time and on budget; maintained <strong>99.99% uptime</strong>. Led an Exchange → Office 365 migration.</li>
-        </ul>
-      </article>
-
-      <article class="job">
-        <header>
-          <h3>Senior Systems Engineer <span class="at">· Virgin Galactic</span></h3>
-          <p class="when">Jul 2012 – Nov 2014 · Mojave, CA</p>
-        </header>
-        <ul>
-          <li>Ran high-availability clusters for critical services and scripted their installs.</li>
-          <li>Owned network security: firewalls and intrusion detection.</li>
-          <li>Led the storage migration to SANs and Dell PowerVaults; integrated Linux servers with Active Directory. <em>Promoted from System Administrator.</em></li>
-        </ul>
-      </article>
-
-      <article class="job">
-        <header>
-          <h3>Server Support Engineer <span class="at">· Publix Super Markets</span></h3>
-          <p class="when">Mar 2007 – Jul 2012 · Lakeland, FL</p>
-        </header>
-        <p class="ctx">Foundational enterprise operations at scale — where the discipline started.</p>
+        <p class="ctx"><strong>Senior System Engineer, Applied Minds</strong> — led <strong>NIST 800-171</strong> compliance, migrated internal applications to AWS at 99.99% uptime, and built real-time ELK monitoring in Azure. <strong>Senior Systems Engineer, Virgin Galactic</strong> — ran high-availability clusters for mission-critical services, owned network security (firewalls, intrusion detection), and led a SAN / Dell PowerVault storage migration. <strong>Server Support Engineer, Publix Super Markets.</strong></p>
       </article>
     </div>
   </section>
@@ -212,12 +205,13 @@
     <p class="eyebrow">Toolkit</p>
     <h2>What I reach for.</h2>
     <dl class="skills">
-      <div><dt>Core</dt><dd>Kubernetes · Terraform / OpenTofu · Python · Go</dd></div>
+      <div><dt>Core</dt><dd>Kubernetes · Terraform / OpenTofu · Python · Go · PowerShell</dd></div>
       <div><dt>Cloud</dt><dd>AWS · GCP · Azure</dd></div>
-      <div><dt>Platform &amp; DevEx</dt><dd>CI/CD · Ansible · mise · uvx · Make · Git</dd></div>
-      <div><dt>AI Infrastructure</dt><dd>Multi-agent orchestration · MCP / agentic tooling · Vertex AI · Copilot</dd></div>
+      <div><dt>Identity &amp; Access</dt><dd>Microsoft Entra ID · Workforce Identity Federation · OIDC · SAML · least-privilege IAM</dd></div>
+      <div><dt>AI Platform</dt><dd>Gemini Enterprise (Agentspace) · Vertex AI · Copilot · multi-agent orchestration · MCP</dd></div>
+      <div><dt>Automation</dt><dd>Workato · Ansible · mise · uvx · CI/CD · Git</dd></div>
       <div><dt>Security &amp; Compliance</dt><dd>FedRAMP (High/Moderate) · NIST 800-171 · Zero Trust · vulnerability management</dd></div>
-      <div><dt>Data &amp; Observability</dt><dd>OpenSearch · Apache Kafka</dd></div>
+      <div><dt>Data &amp; Observability</dt><dd>OpenSearch · Apache Kafka · ELK · PRTG</dd></div>
     </dl>
   </section>
 
@@ -256,8 +250,8 @@
         <p class="footer-p">Staff-level platform &amp; AI infrastructure. Fastest way to reach me is email.</p>
       </div>
       <div class="footer-links">
-        <a href="resume.pdf" download>Résumé — PDF</a>
-        <a href="resume.md" download>Résumé — Markdown</a>
+        <a href="resume.pdf" download>Resume — PDF</a>
+        <a href="resume.md" download>Resume — Markdown</a>
         <a href="mailto:jesse@mccannical.com">jesse@mccannical.com</a>
         <a href="https://www.linkedin.com/in/jessemccann" target="_blank" rel="me noopener">linkedin.com/in/jessemccann</a>
         <a href="https://github.com/mccannical" target="_blank" rel="me noopener">github.com/mccannical</a>
