@@ -69,7 +69,7 @@ Migrated 4 Nutanix clusters, 30 servers, and 10 applications to GCP with Terrafo
 
 ### Earlier Roles
 
-**Senior System Engineer, Applied Minds** (2014-2018) - NIST 800-171 compliance, AWS migration at 99.99% uptime, real-time ELK monitoring. **Senior Systems Engineer, Virgin Galactic** (2012-2014) - high-availability clusters, network security, SAN / Dell PowerVault storage migration. **Server Support Engineer, Publix Super Markets** (2007-2012).
+**Senior System Engineer, Applied Minds** (2014-2018) - NIST 800-171 compliance, AWS migration at 99.99% uptime, real-time ELK monitoring; promoted to IT Manager. **Senior Systems Engineer, Virgin Galactic** (2012-2014) - high-availability clusters, network security, SAN / Dell PowerVault storage migration. **Server Support Engineer, Publix Super Markets** (2007-2012).
 
 ## EDUCATION, CERTIFICATIONS & PUBLICATIONS
 
