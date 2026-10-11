@@ -9,13 +9,13 @@ linkedin.com/in/jessemccann | github.com/mccannical | mccannical.com
 
 ## PROFESSIONAL SUMMARY
 
-Staff infrastructure engineer with 15+ years owning production platforms across AWS, GCP, and Azure.
-I turn manual, fragile operations into one-command automation: multi-cloud Kubernetes, Terraform /
-OpenTofu infrastructure as code, CI/CD, and cloud cost governance. Recent focus is AI infrastructure
-and enterprise AI platforms - multi-agent systems, agentic tooling, and the identity and tenancy
-foundations (standalone GCP tenants, Workforce Identity Federation, MCP workflows) that let teams and
-AI models ship real code together. Deep FedRAMP High/Moderate and NIST 800-171 experience; mentor to
-10+ engineers.
+Staff infrastructure engineer with 15+ years owning production platforms across AWS, GCP, and Azure -
+and a subject-matter expert and lead SRE for onboarding new clients and supporting large customers. I
+turn manual, fragile operations into one-command automation (multi-cloud Kubernetes, Terraform /
+OpenTofu, CI/CD, cloud cost governance) and build AI infrastructure and enterprise AI platforms:
+multi-agent systems, agentic tooling, and the identity and tenancy foundations (standalone GCP
+tenants, Workforce Identity Federation, MCP) that let teams and models ship real code together.
+FedRAMP High/Moderate and NIST 800-171 experience; mentor to 10+ engineers.
 
 ## TECHNICAL SKILLS
 
@@ -43,15 +43,15 @@ Consulting at the intersection of Corporate IT and AI engineering; building Blac
 ### Site Reliability Engineer, DAS Cloud
 **DTEX Systems - Greater Philadelphia | May 2024 - Present**
 
-Reliability and platform engineering for multi-tenant DAS Cloud across commercial and FedRAMP High/Moderate environments.
+SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP High/Moderate environments.
 
-- Delivered DAS Cloud reliability and platform work across ~300 completed Jira issues (SRE, Service Desk, DAS 7, FedRAMP, customer environments); authored ~126 Confluence pages of architecture, runbooks, and operational standards.
-- Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut customer-environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
+- Served as lead SRE and subject-matter expert for new-client onboarding and large customers; delivered ~300 completed Jira issues (SRE, Service Desk, DAS 7, FedRAMP, customer environments) and authored ~126 Confluence pages of architecture, runbooks, and standards.
+- Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut new-customer environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
 - Designed an internal multi-agent AI platform (Vertex AI + Copilot) with a durable issue graph for long-running agent work, now the team's blueprint for large-scale legacy refactoring.
 - Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo into independently managed repositories, and shipped the DAS 7.3 Terraform and Ansible release.
 - Closed critical FedRAMP controls (SSH hardening, key rotation, SAML protection for Nessus, scanner evidence, Salt/Zabbix remediation, GitLab upgrades) and expanded production IAM controls across RDS, CloudWatch, logging, Lambda, and snapshots.
-- Evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed with Juju), adopting Cluster Insights, UltraWarm/cold storage, and in-place DAS upgrades across customer, QE, POV, and internal environments; completed GCP commercial productionization and documented repeatable DAS 7 deployment, image-pipeline, and SSH-over-IAP patterns.
-- Improved detection and recovery via DAS CloudWatch alerting, CloudWatch-to-Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of customer incidents involving Elasticsearch health, storage, certificate expiry, and message-queue pressure.
+- SME for OpenSearch and GCP architecture: evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed with Juju), adopting Cluster Insights, UltraWarm/cold storage, and in-place DAS upgrades; completed GCP commercial productionization.
+- Improved detection and recovery via DAS CloudWatch alerting, CloudWatch-to-Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of customer-impacting incidents involving Elasticsearch health, storage, certificate expiry, and message-queue pressure.
 
 ### Sr. Cloud Systems Engineer / Technical Lead
 **Confluent - Mountain View, CA | Nov 2020 - Apr 2024**
