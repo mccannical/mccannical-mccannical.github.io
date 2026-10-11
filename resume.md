@@ -73,4 +73,4 @@ Migrated 4 Nutanix clusters, 30 servers, and 10 applications to GCP with Terrafo
 
 ## EDUCATION, CERTIFICATIONS & PUBLICATIONS
 
-- AWS Certified Solutions Architect - Associate | Technical Mentor, Princeton University | Polk State College | CFCC
+- AWS Certified Solutions Architect - Associate | Technical Mentor, Princeton University

@@ -1,5 +1,5 @@
 /* ============================================================
-   Jesse McCann — personal / résumé site
+   Jesse McCann — personal / resume site
    Clean, typography-led, zero-build. No JS required to read it.
    ============================================================ */
 
@@ -160,7 +160,7 @@ html[data-theme="dark"] .moon { display: none; }
 /* ---------- Stats ---------- */
 .stats { border-block: 1px solid var(--line); background: var(--surface); }
 .stats-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1px; padding-block: 0;
 }
 .stat { padding: 30px 26px 30px 0; border-left: 1px solid var(--line); padding-left: 26px; }
