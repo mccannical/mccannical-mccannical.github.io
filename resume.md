@@ -29,6 +29,19 @@ FedRAMP High/Moderate and NIST 800-171 experience; mentor to 10+ engineers.
 
 ## PROFESSIONAL EXPERIENCE
 
+### Site Reliability Engineer, DAS Cloud
+**DTEX Systems - Greater Philadelphia | May 2024 - Present**
+
+SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP High/Moderate environments.
+
+- Served as lead SRE and subject-matter expert for new-client onboarding and large customers, delivering ~300 Jira issues across SRE, Service Desk, DAS 7, FedRAMP, and customer work; authored ~126 Confluence pages.
+- Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut new-customer environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
+- Designed an internal multi-agent AI platform (Vertex AI + Copilot) with a durable issue graph for long-running agent work, now the team's blueprint for large-scale legacy refactoring.
+- Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo into independently managed repositories, and shipped the DAS 7.3 Terraform and Ansible release.
+- Closed critical FedRAMP controls (SSH hardening, key rotation, SAML protection for Nessus, scanner evidence, Salt/Zabbix remediation, GitLab upgrades) and expanded production IAM controls across RDS, CloudWatch, logging, Lambda, and snapshots.
+- SME for OpenSearch and GCP architecture: evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed with Juju), adopting Cluster Insights, UltraWarm/cold storage, and in-place DAS upgrades; completed GCP commercial productionization.
+- Improved detection and recovery via DAS CloudWatch alerting, CloudWatch-to-Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of customer-impacting incidents involving Elasticsearch health, storage, certificate expiry, and message-queue pressure.
+
 ### Senior Systems Infrastructure Engineer, Corporate IT (Consultant)
 **BlackLine - Greater Philadelphia | 2025 - Present**
 
@@ -37,21 +50,8 @@ Consulting at the intersection of Corporate IT and AI engineering; building Blac
 - Launched BlackLine's Gemini Enterprise (Agentspace) platform: stood up Dev, Test, and Prod environments and data connectors (SharePoint, OneDrive, Outlook, Teams, Jira, Confluence), moved apps from SAML to OIDC, and restricted production data access.
 - Designed and delivered a standalone, Terraform-managed GCP tenant for AI and agent workloads - org and folder structure, least-privilege IAM for citizen developers, network and tenant isolation, and a reusable Terraform module for business-unit agent projects.
 - Implemented Workforce Identity Federation between Microsoft Entra ID and GCP; added a vaulted break-glass account and dedicated elevated accounts, and removed over-privileged ("god-mode") bindings and legacy admin tiers.
-- Established infrastructure-as-code and release discipline - migrated Terraform state, centralized shared configuration, consolidated Entra identity management, and added semantic versioning, Conventional Commits, automated changelogs, and release pipelines; built self-service AI Playgrounds with on-demand provisioning, automatic TTL cleanup, and a v1.0.0 library of reusable AI skills.
+- Established infrastructure-as-code and release discipline (Terraform state migration, centralized configuration, semantic versioning, Conventional Commits, release pipelines) and built self-service AI Playgrounds with automatic TTL cleanup and a v1.0.0 library of reusable AI skills.
 - Automated the employee lifecycle (PowerShell onboarding/offboarding, scheduled Workday export, daily reports, PRTG monitoring); delivered Workato SSO/SCIM and a Confluence OAuth connector; authored ~100 Confluence pages of architecture and runbooks.
-
-### Site Reliability Engineer, DAS Cloud
-**DTEX Systems - Greater Philadelphia | May 2024 - Present**
-
-SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP High/Moderate environments.
-
-- Served as lead SRE and subject-matter expert for new-client onboarding and large customers; delivered ~300 completed Jira issues (SRE, Service Desk, DAS 7, FedRAMP, customer environments) and authored ~126 Confluence pages of architecture, runbooks, and standards.
-- Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut new-customer environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
-- Designed an internal multi-agent AI platform (Vertex AI + Copilot) with a durable issue graph for long-running agent work, now the team's blueprint for large-scale legacy refactoring.
-- Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo into independently managed repositories, and shipped the DAS 7.3 Terraform and Ansible release.
-- Closed critical FedRAMP controls (SSH hardening, key rotation, SAML protection for Nessus, scanner evidence, Salt/Zabbix remediation, GitLab upgrades) and expanded production IAM controls across RDS, CloudWatch, logging, Lambda, and snapshots.
-- SME for OpenSearch and GCP architecture: evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed with Juju), adopting Cluster Insights, UltraWarm/cold storage, and in-place DAS upgrades; completed GCP commercial productionization.
-- Improved detection and recovery via DAS CloudWatch alerting, CloudWatch-to-Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of customer-impacting incidents involving Elasticsearch health, storage, certificate expiry, and message-queue pressure.
 
 ### Sr. Cloud Systems Engineer / Technical Lead
 **Confluent - Mountain View, CA | Nov 2020 - Apr 2024**
@@ -73,4 +73,4 @@ Migrated 4 Nutanix clusters, 30 servers, and 10 applications to GCP with Terrafo
 
 ## EDUCATION, CERTIFICATIONS & PUBLICATIONS
 
-- AWS Certified Solutions Architect - Associate | Technical Mentor, Princeton University | Polk State College, 2005-2006 | CFCC, 1999-2001
+- AWS Certified Solutions Architect - Associate | Technical Mentor, Princeton University | Polk State College | CFCC

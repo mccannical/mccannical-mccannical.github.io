@@ -80,10 +80,10 @@
   <!-- STATS -->
   <section class="stats" aria-label="At a glance">
     <div class="wrap stats-grid">
-      <div class="stat"><span class="num">15+</span><span class="lbl">years owning production infrastructure</span></div>
-      <div class="stat"><span class="num">45%</span><span class="lbl">cloud spend cut via policy automation</span></div>
-      <div class="stat"><span class="num">3</span><span class="lbl">clouds — AWS, GCP, Azure — to FedRAMP High</span></div>
-      <div class="stat"><span class="num">~1 hr</span><span class="lbl">from zero to a customer environment (was days)</span></div>
+      <div class="stat"><span class="num">~1 hr</span><span class="lbl">from zero to a new-customer environment — down from days</span></div>
+      <div class="stat"><span class="num">200+</span><span class="lbl">environments owned, monitored, and hardened</span></div>
+      <div class="stat"><span class="num">45%</span><span class="lbl">cloud spend cut through policy automation</span></div>
+      <div class="stat"><span class="num">FedRAMP</span><span class="lbl">High &amp; Moderate, across AWS, GCP, and Azure</span></div>
     </div>
   </section>
 
@@ -138,6 +138,24 @@
     <div class="timeline">
       <article class="job">
         <header>
+          <h3>Site Reliability Engineer, DAS Cloud <span class="at">· DTEX Systems</span></h3>
+          <p class="when">May 2024 – Present · Greater Philadelphia</p>
+        </header>
+        <p class="ctx">SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP High/Moderate environments.</p>
+        <ul>
+          <li>Served as <strong>lead SRE and subject-matter expert</strong> for new-client onboarding and large customers, delivering <strong>~300 Jira issues</strong> across SRE, Service Desk, DAS 7, FedRAMP, and customer work; authored <strong>~126 Confluence pages</strong>.</li>
+          <li>Built the multi-cloud Kubernetes <strong>“deployment factory”</strong> (Terraform/OpenTofu) that turned standing up a new-customer environment from days of manual work into one command and about an hour.</li>
+          <li>Cut monthly cloud spend <strong>45%</strong> through Cloud Custodian policy automation.</li>
+          <li>Built an <strong>internal multi-agent AI platform</strong> (Vertex AI + Copilot) with a durable issue graph for long-running work — now the team's blueprint for large-scale legacy refactoring.</li>
+          <li>Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo, and shipped the <strong>DAS 7.3</strong> Terraform and Ansible release.</li>
+          <li>Closed critical <strong>FedRAMP</strong> controls (SSH hardening, key rotation, scanner evidence, Salt/Zabbix remediation, GitLab upgrades) and expanded production IAM across RDS, CloudWatch, logging, Lambda, and snapshots.</li>
+          <li><strong>SME for OpenSearch and GCP architecture</strong>: evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed/Juju) — Cluster Insights, UltraWarm/cold storage, in-place upgrades — and completed <strong>GCP commercial productionization</strong>.</li>
+          <li>Improved detection and recovery with DAS CloudWatch alerting, Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of <strong>customer-impacting incidents</strong> involving Elasticsearch, storage, certificates, and message queues.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <header>
           <h3>Senior Systems Infrastructure Engineer, Corporate IT <span class="at">· BlackLine (Consultant)</span></h3>
           <p class="when">2025 – Present · Greater Philadelphia</p>
         </header>
@@ -148,24 +166,6 @@
           <li>Implemented <strong>Workforce Identity Federation</strong> between Microsoft Entra ID and GCP; added vaulted break-glass access and removed over-privileged bindings and legacy admin tiers.</li>
           <li>Established infrastructure-as-code and release discipline (Terraform state migration, semantic versioning, Conventional Commits, release pipelines) and built self-service AI Playgrounds with automatic TTL cleanup.</li>
           <li>Automated the employee lifecycle with PowerShell onboarding/offboarding and a scheduled Workday export; delivered Workato SSO/SCIM and a Confluence OAuth connector; authored ~100 Confluence pages.</li>
-        </ul>
-      </article>
-
-      <article class="job">
-        <header>
-          <h3>Site Reliability Engineer, DAS Cloud <span class="at">· DTEX Systems</span></h3>
-          <p class="when">May 2024 – Present · Greater Philadelphia</p>
-        </header>
-        <p class="ctx">SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP High/Moderate environments.</p>
-        <ul>
-          <li>Served as <strong>lead SRE and subject-matter expert</strong> for new-client onboarding and large customers; delivered <strong>~300 completed Jira issues</strong> (SRE, Service Desk, DAS 7, FedRAMP, customer environments) and authored <strong>~126 Confluence pages</strong> of architecture, runbooks, and standards.</li>
-          <li>Built the multi-cloud Kubernetes <strong>“deployment factory”</strong> (Terraform/OpenTofu) that turned standing up a new-customer environment from days of manual work into one command and about an hour.</li>
-          <li>Cut monthly cloud spend <strong>45%</strong> through Cloud Custodian policy automation.</li>
-          <li>Built an <strong>internal multi-agent AI platform</strong> (Vertex AI + Copilot) with a durable issue graph for long-running work — now the team's blueprint for large-scale legacy refactoring.</li>
-          <li>Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo, and shipped the <strong>DAS 7.3</strong> Terraform and Ansible release.</li>
-          <li>Closed critical <strong>FedRAMP</strong> controls (SSH hardening, key rotation, scanner evidence, Salt/Zabbix remediation, GitLab upgrades) and expanded production IAM across RDS, CloudWatch, logging, Lambda, and snapshots.</li>
-          <li><strong>SME for OpenSearch and GCP architecture</strong>: evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed/Juju) — Cluster Insights, UltraWarm/cold storage, in-place upgrades — and completed <strong>GCP commercial productionization</strong>.</li>
-          <li>Improved detection and recovery with DAS CloudWatch alerting, Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of <strong>customer-impacting incidents</strong> involving Elasticsearch, storage, certificates, and message queues.</li>
         </ul>
       </article>
 
