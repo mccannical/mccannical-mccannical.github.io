@@ -15,7 +15,7 @@ turn manual, fragile operations into one-command automation (multi-cloud Kuberne
 OpenTofu, CI/CD, cloud cost governance) and build AI infrastructure and enterprise AI platforms:
 multi-agent systems, agentic tooling, and the identity and tenancy foundations (standalone GCP
 tenants, Workforce Identity Federation, MCP) that let teams and models ship real code together.
-FedRAMP High/Moderate and NIST 800-171 experience; mentor to 10+ engineers.
+FedRAMP Moderate and NIST 800-171 experience; mentor to 10+ engineers.
 
 ## TECHNICAL SKILLS
 
@@ -25,14 +25,14 @@ FedRAMP High/Moderate and NIST 800-171 experience; mentor to 10+ engineers.
 - **AI Platform & Infrastructure:** Gemini Enterprise (Agentspace), Vertex AI, GitHub Copilot, multi-agent orchestration, MCP / agentic tooling
 - **Automation & Integration:** Workato, Workday, CI/CD (GitHub Actions, Cloud Build, GitLab CI), mise, uvx, Git
 - **Observability & Data:** OpenSearch, Apache Kafka, ELK Stack, PRTG
-- **Security & Compliance:** FedRAMP (High/Moderate), NIST 800-171, Zero Trust, vulnerability management, continuous monitoring
+- **Security & Compliance:** FedRAMP (Moderate), NIST 800-171, Zero Trust, vulnerability management, continuous monitoring
 
 ## PROFESSIONAL EXPERIENCE
 
 ### Site Reliability Engineer, DAS Cloud
 **DTEX Systems - Greater Philadelphia | May 2024 - Present**
 
-SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP High/Moderate environments.
+SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP Moderate environments.
 
 - Served as lead SRE and subject-matter expert for new-client onboarding and large customers, delivering ~300 Jira issues across SRE, Service Desk, DAS 7, FedRAMP, and customer work; authored ~126 Confluence pages.
 - Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut new-customer environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
