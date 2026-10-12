@@ -34,7 +34,7 @@ FedRAMP Moderate and NIST 800-171 experience; mentor to 10+ engineers.
 
 SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP Moderate environments.
 
-- Served as lead SRE and subject-matter expert for new-client onboarding and large customers, delivering ~300 Jira issues across SRE, Service Desk, DAS 7, FedRAMP, and customer work; authored ~126 Confluence pages.
+- Lead SRE and subject-matter expert for new-client onboarding and large customers - owning the path from first proof-of-concept to steady-state production and serving as the escalation point for their hardest platform issues.
 - Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut new-customer environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
 - Designed an internal multi-agent AI platform (Vertex AI + Copilot) with a durable issue graph for long-running agent work, now the team's blueprint for large-scale legacy refactoring.
 - Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo into independently managed repositories, and shipped the DAS 7.3 Terraform and Ansible release.
@@ -51,7 +51,7 @@ Consulting at the intersection of Corporate IT and AI engineering; building Blac
 - Designed and delivered a standalone, Terraform-managed GCP tenant for AI and agent workloads - org and folder structure, least-privilege IAM for citizen developers, network and tenant isolation, and a reusable Terraform module for business-unit agent projects.
 - Implemented Workforce Identity Federation between Microsoft Entra ID and GCP; added a vaulted break-glass account and dedicated elevated accounts, and removed over-privileged ("god-mode") bindings and legacy admin tiers.
 - Established infrastructure-as-code and release discipline (Terraform state migration, centralized configuration, semantic versioning, Conventional Commits, release pipelines) and built self-service AI Playgrounds with automatic TTL cleanup and a v1.0.0 library of reusable AI skills.
-- Automated the employee lifecycle (PowerShell onboarding/offboarding, scheduled Workday export, daily reports, PRTG monitoring); delivered Workato SSO/SCIM and a Confluence OAuth connector; authored ~100 Confluence pages of architecture and runbooks.
+- Automated the employee lifecycle (PowerShell onboarding/offboarding, scheduled Workday export, daily reports, PRTG monitoring) and delivered Workato SSO/SCIM and a Confluence OAuth connector.
 
 ### Sr. Cloud Systems Engineer / Technical Lead
 **Confluent - Mountain View, CA | Nov 2020 - Apr 2024**
