@@ -9,13 +9,12 @@ linkedin.com/in/jessemccann | github.com/mccannical | mccannical.com
 
 ## PROFESSIONAL SUMMARY
 
-Staff infrastructure engineer with 15+ years owning production platforms across AWS, GCP, and Azure -
-and a subject-matter expert and lead SRE for onboarding new clients and supporting large customers. I
-turn manual, fragile operations into one-command automation (multi-cloud Kubernetes, Terraform /
-OpenTofu, CI/CD, cloud cost governance) and build AI infrastructure and enterprise AI platforms:
-multi-agent systems, agentic tooling, and the identity and tenancy foundations (standalone GCP
-tenants, Workforce Identity Federation, MCP) that let teams and models ship real code together.
-FedRAMP Moderate and NIST 800-171 experience; mentor to 10+ engineers.
+Fifteen years across the infrastructure stack: highly available enterprise systems, a rocket company's
+mission systems, a national-security R&D lab, a pre-IPO hyperscale platform, and now greenfield AI
+infrastructure. The throughline never changes - turn fragile, manual operations into one-command
+automation, and be the SME and lead SRE that new clients and large customers rely on. Multi-cloud
+(AWS, GCP, Azure), Kubernetes, Terraform / OpenTofu, and enterprise AI platforms; FedRAMP Moderate and
+NIST 800-171; mentor to 10+ engineers.
 
 ## TECHNICAL SKILLS
 
@@ -32,7 +31,7 @@ FedRAMP Moderate and NIST 800-171 experience; mentor to 10+ engineers.
 ### Site Reliability Engineer, DAS Cloud
 **DTEX Systems - Greater Philadelphia | May 2024 - Present**
 
-SME and lead SRE for new-client onboarding and large customers on multi-tenant DAS Cloud, across commercial and FedRAMP Moderate environments.
+Greenfield platform work - design, process, and mentoring - plus the SME and lead SRE role for new-client onboarding and large customers on multi-tenant DAS Cloud.
 
 - Lead SRE and subject-matter expert for new-client onboarding and large customers - owning the path from first proof-of-concept to steady-state production and serving as the escalation point for their hardest platform issues.
 - Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut new-customer environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
@@ -45,7 +44,7 @@ SME and lead SRE for new-client onboarding and large customers on multi-tenant D
 ### Senior Systems Infrastructure Engineer, Corporate IT (Consultant)
 **BlackLine - Greater Philadelphia | 2025 - Present**
 
-Consulting at the intersection of Corporate IT and AI engineering; building BlackLine IT's enterprise AI platform foundation.
+A return to BlackLine to modernize at the AI frontier: Vertex AI and Gemini Enterprise at scale, and modernizing code, process, people, and workflow.
 
 - Launched BlackLine's Gemini Enterprise (Agentspace) platform: stood up Dev, Test, and Prod environments and data connectors (SharePoint, OneDrive, Outlook, Teams, Jira, Confluence), moved apps from SAML to OIDC, and restricted production data access.
 - Designed and delivered a standalone, Terraform-managed GCP tenant for AI and agent workloads - org and folder structure, least-privilege IAM for citizen developers, network and tenant isolation, and a reusable Terraform module for business-unit agent projects.
@@ -56,7 +55,7 @@ Consulting at the intersection of Corporate IT and AI engineering; building Blac
 ### Sr. Cloud Systems Engineer / Technical Lead
 **Confluent - Mountain View, CA | Nov 2020 - Apr 2024**
 
-Infrastructure through pre-IPO, IPO, and post-IPO growth at the company behind enterprise Apache Kafka.
+Hyperscale and real autonomy: Go and Kubernetes at the company behind enterprise Apache Kafka, through pre-IPO, IPO, and post-IPO growth.
 
 - Built and operated Go and Python infrastructure services on GCP Cloud Run, with CI/CD from GitHub through Cloud Build; deployed GKE with Terraform and custom Go cluster-management tooling.
 - Led a multi-quarter Zero Trust network rollout (Palo Alto) for a global workforce, writing the allow-list automation so the cutover caused zero work interruptions.
@@ -65,11 +64,11 @@ Infrastructure through pre-IPO, IPO, and post-IPO growth at the company behind e
 ### Staff System Engineer
 **BlackLine - Woodland Hills, CA | Feb 2018 - Nov 2020**
 
-Migrated 4 Nutanix clusters, 30 servers, and 10 applications to GCP with Terraform; ran the Atlassian stack (3,000 users) in high availability and automated HRIS updates, server deployment, and patch management, saving 10-15 hours per week.
+First move into cloud at a large, audited company - GCP, Python, and Terraform, where scale and auditability were the point. Migrated 4 Nutanix clusters, 30 servers, and 10 applications to GCP; ran the Atlassian stack (3,000 users) in high availability and automated HRIS, deployment, and patching, saving 10-15 hours per week.
 
 ### Earlier Roles
 
-**Senior System Engineer, Applied Minds** (2014-2018) - NIST 800-171 compliance, AWS migration at 99.99% uptime, real-time ELK monitoring; promoted to IT Manager. **Senior Systems Engineer, Virgin Galactic** (2012-2014) - high-availability clusters, network security, SAN / Dell PowerVault storage migration. **Server Support Engineer, Publix Super Markets** (2007-2012).
+**Server Support Engineer, Publix Super Markets** (2007-2012) - first tech job: cut my teeth on scaled, redundant enterprise systems where uptime was the whole story. **Senior Systems Engineer, Virgin Galactic** (2012-2014) - scrappy, fast-moving startup; multidisciplinary work across rockets, simulators, and systems, where the cost of a crash is real. **Senior System Engineer to IT Manager, Applied Minds** (2014-2018) - an R&D playground: AI, cybersecurity, national security, systems engineering, and management; led NIST 800-171 compliance and a 99.99%-uptime AWS migration.
 
 ## EDUCATION, CERTIFICATIONS & PUBLICATIONS
 
