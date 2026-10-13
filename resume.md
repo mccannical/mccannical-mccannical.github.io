@@ -12,7 +12,7 @@ linkedin.com/in/jessemccann | github.com/mccannical | mccannical.com
 Fifteen years across the infrastructure stack: highly available enterprise systems, a rocket company's
 mission systems, a national-security R&D lab, a pre-IPO hyperscale platform, and now greenfield AI
 infrastructure. The throughline never changes - turn fragile, manual operations into one-command
-automation, and be the SME and lead SRE that new clients and large customers rely on. Multi-cloud
+automation, and help the people around me ship reliably. Multi-cloud
 (AWS, GCP, Azure), Kubernetes, Terraform / OpenTofu, and enterprise AI platforms; FedRAMP Moderate and
 NIST 800-171; mentor to 10+ engineers.
 
@@ -31,14 +31,14 @@ NIST 800-171; mentor to 10+ engineers.
 ### Site Reliability Engineer, DAS Cloud
 **DTEX Systems - Greater Philadelphia | May 2024 - Present**
 
-Greenfield platform work - design, process, and mentoring - plus the SME and lead SRE role for new-client onboarding and large customers on multi-tenant DAS Cloud.
+Greenfield platform work on multi-tenant DAS Cloud - design, process, and mentoring - working alongside customers and teammates to take new deployments from proof-of-concept to production.
 
-- Lead SRE and subject-matter expert for new-client onboarding and large customers - owning the path from first proof-of-concept to steady-state production and serving as the escalation point for their hardest platform issues.
+- Partnered with customers and across SRE, Service Desk, and engineering teams to onboard new clients - carrying their environments from first proof-of-concept to steady-state production.
 - Built a multi-cloud Kubernetes deployment platform (Terraform / OpenTofu) that cut new-customer environment provisioning from days of manual work to one command and ~1 hour, and reduced monthly cloud spend 45% through Cloud Custodian policy automation.
 - Designed an internal multi-agent AI platform (Vertex AI + Copilot) with a durable issue graph for long-running agent work, now the team's blueprint for large-scale legacy refactoring.
 - Defined Terraform style and module standards, introduced a facade-based infrastructure pattern, split the SRE monorepo into independently managed repositories, and shipped the DAS 7.3 Terraform and Ansible release.
 - Closed critical FedRAMP controls (SSH hardening, key rotation, SAML protection for Nessus, scanner evidence, Salt/Zabbix remediation, GitLab upgrades) and expanded production IAM controls across RDS, CloudWatch, logging, Lambda, and snapshots.
-- SME for OpenSearch and GCP architecture: evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed with Juju), adopting Cluster Insights, UltraWarm/cold storage, and in-place DAS upgrades; completed GCP commercial productionization.
+- Evaluated and delivered multiple OpenSearch architectures (AWS, Aiven, Canonical Charmed with Juju), adopting Cluster Insights, UltraWarm/cold storage, and in-place DAS upgrades; completed GCP commercial productionization.
 - Improved detection and recovery via DAS CloudWatch alerting, CloudWatch-to-Slack integration, a service-status page, RDS snapshots, immutable backups, and multi-AZ conversion; led resolution of customer-impacting incidents involving Elasticsearch health, storage, certificate expiry, and message-queue pressure.
 
 ### Senior Systems Infrastructure Engineer, Corporate IT (Consultant)
